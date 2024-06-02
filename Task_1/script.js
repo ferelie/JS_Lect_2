@@ -38,9 +38,7 @@ const readUserInfo = () => {
         }
     }
 
-    console.log(
-        `Welcome, ${name}! \nYour contact information is: \nLandline: ${landlineNum} \nMobile: ${mobileNum} \nEmail: ${email}`
-    );
+    console.log(`%cWelcome, ${name}! \nYour contact information is: \nLandline: ${landlineNum} \nMobile: ${mobileNum} \nEmail: ${email}`, 'color: green');
 };
 
 readUserInfo();
