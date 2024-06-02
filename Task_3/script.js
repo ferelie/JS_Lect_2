@@ -7,7 +7,6 @@ const sortArray = (arr) => {
 
     document.body.innerHTML += `<h3>The sorted array in descending order is: ${descendingOrder}</h3>`;
     document.body.innerHTML += `<h3>The sorted array in ascending order is:  ${ascendingOrder}</h3>`;
-    document.write("<h3>The original array is: " + arr + "</h3>");
 };
 
 let userInput = prompt("Enter a list of numbers separated by commas:");
